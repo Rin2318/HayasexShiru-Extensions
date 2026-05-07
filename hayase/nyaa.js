@@ -1,5 +1,5 @@
 export default new class Nyaa {
-  url = 'https://nyaa.si'
+  url = 'nyaaapi.onrender.com'
 
   async single ({ titles, episode }) {
     if (!titles?.length) return []
